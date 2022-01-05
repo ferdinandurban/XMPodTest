@@ -1,0 +1,11 @@
+framework module XMPodTest {
+  umbrella header "XMPodTest.h"
+
+  export *
+  module * { export * }
+}
+
+module XMPodTest.Swift {
+    header "XMPodTest-Swift.h"
+    requires objc
+}
